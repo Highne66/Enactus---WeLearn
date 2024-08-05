@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D4D3E1;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #5E376D;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+#hero {
+    background: linear-gradient(135deg, #7F79B8, #725284);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin: 0 0 20px;
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 0 0 30px;
+}
+
+.btn {
+    background-color: #FFC222;
+    color: #5E376D;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #5E376D;
+    color: #FFC222;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #5E376D;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Features Section Styles */
+#features {
+    background-color: #BCACC1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #5E376D;
+}
+
+#features ul {
+    list-style: none;
+    padding: 0;
+}
+
+#features ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+#features ul li:before {
+    content: "✔";
+    color: #725284;
+    position: absolute;
+    left: 0;
+    font-size: 1.5em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #5E376D;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
