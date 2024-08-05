@@ -141,3 +141,47 @@ footer p {
     margin: 0;
     font-size: 0.9em;
 }
+/* Game Section Styles */
+#game {
+    background-color: #F4F6FC;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#game h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #5E376D;
+}
+
+#game #question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#game #answer {
+    padding: 10px;
+    font-size: 1em;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#game button {
+    background-color: #FFC222;
+    color: #5E376D;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#game button:hover {
+    background-color: #5E376D;
+    color: #FFC222;
+}
+
+#game #result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
